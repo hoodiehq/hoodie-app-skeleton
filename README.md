@@ -1,6 +1,7 @@
 # Boilerplate for new Hoodie App
 
-You can start to build your app in a fingersnap.
+You can start to build your (mobile) app in a fingersnap.
+
 
 
 ## Installation
