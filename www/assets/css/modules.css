@@ -1,5 +1,5 @@
 /* ==========================================================================
-   specify all the modules 
+   specify all the modules
    ========================================================================== */
 
 /* --- Hoodie Sign In / Sign Up / Sign out stylings --- */
@@ -29,3 +29,18 @@ html[data-hoodie-account-status=signedout] .hoodie-account-signedout {
 
 .dropdown-menu li {  border-bottom:1px solid #efefef; }
 .dropdown-menu li:last-child { border-bottom: none; }
+
+.modal {
+  margin: auto;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%, -60%);
+}
+
+@media all and (max-width: 600px) {
+  .modal {
+    width: 90%;
+  }
+}
