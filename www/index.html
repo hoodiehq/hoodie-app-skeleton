@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 
   <!-- Basic Page Needs
@@ -18,26 +15,16 @@
 
   <!-- Vendor CSS
   ================================================== -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/skeleton/base.css">
-  <link rel="stylesheet" href="assets/vendor/skeleton/skeleton.css">
-  <link rel="stylesheet" href="assets/vendor/skeleton/layout.css">
+  <link rel="stylesheet" href="assets/vendor/Skeleton-2.0.4/css/normalize.css">
+  <link rel="stylesheet" href="assets/vendor/Skeleton-2.0.4/css/skeleton.css">
 
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="assets/css/main.css">
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
   <!-- Favicons
   ================================================= -->
-  <link rel="shortcut icon" href="assets/vendor/skeleton/images/favicon.ico">
-  <link rel="apple-touch-icon" href="assets/vendor/skeleton/images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/vendor/skeleton/images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/vendor/skeleton/images/apple-touch-icon-114x114.png">
-
+  <link rel="shortcut icon" href="assets/vendor/Skeleton-2.0.4/images/favicon.ico">
 </head>
 <body>
 
@@ -48,95 +35,45 @@
 
   <div class="container">
     <div class="sixteen columns">
-      
-      <!-- START hoodie-accountbar -->
-      <div class="hoodie-accountbar">
-      
-        <div class="hoodie-account-signedout">
-          <span class="btn-group">
-            <button class="btn" data-hoodie-action="signup">Sign Up</button>
-            <button class="btn dropdown-toggle" data-toggle="dropdown">
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="#" data-hoodie-action="signin">Sign In</a></li>
-              <li><a href="#" data-hoodie-action="resetpassword">Reset Password</a></li>
-              <li><a href="#" data-hoodie-action="destroy">Clear local data</a></li>
-            </ul>
-          </span>
-        </div><!-- hoodie-account-signedout -->
-
-        <div class="hoodie-account-signedin">
-          Hello,
-          <span class="hoodie-username"><!-- usern name will be filled in here --></span>
-          <span class="btn-group">
-            <button class="btn" data-hoodie-action="signout">Sign Out</button>
-            <button class="btn dropdown-toggle" data-toggle="dropdown">
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="#" data-hoodie-action="changepassword">Change Password</a></li>
-              <li><a href="#" data-hoodie-action="changeusername">Change Username</a></li>
-              <li><a href="#" data-hoodie-action="destroy">Destroy Account</a></li>
-            </ul>
-          </span>
-        </div><!-- hoodie-account-signedin -->
-
-        <div class="hoodie-account-error">
-          Hello,
-          <span class="hoodie-username"><!-- usern name will be filled in here --></span>.
-          <span class="btn-group">
-            <button class="btn btn-danger" data-hoodie-action="signin">Authentication error: Sign in again</button>
-            <button class="btn dropdown-toggle btn-danger" data-toggle="dropdown">
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="#" data-hoodie-action="signout">Sign out</a></li>
-            </ul>
-          </span>
-        </div><!-- hoodie-account-error -->
-
-      </div><!-- hoodie-acountbar -->
-      <!-- END hoodie-accountbar -->
-    </div>
-    
-    <div class="sixteen columns">
       <h1>Hoodie App Skeleton</h1>
-      <h2>Your very own Hoodie!</h2>
       <hr />
     </div><!-- sixteen columns -->
-    
-    <div class="one-third column">
-      <h3>About Hoodie</h3>
-      <p>Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible.</p>
-      <p>Hoodie is a free and Open Source Software for building applications for the web and iOS. It is a complete backend for your apps, ready for you to get creative. It works immediately out-of-the-box: develop your frontend code, plug it into Hoodie’s frontend-friendly API and your app is ready.</p> 
-    </div><!-- one-third column -->
-    
-    <div class="one-third column">
-      <h3>Principles</h3>
-      <p>Hoodie is built on three core principles:</p>
-      <ul class="square">
-        <li><strong>Offline First</strong>: Hoodie considers the offline case first, and allows you to use your apps offline, with no extra code.</li>
-        <li><strong>noBackend</strong>: Hoodie abstracts the backend away into an expressive, accessible API accessed entirely within your frontend code.</li>
-        <li><strong>Framework Agnostic</strong>: Hoodie doesn't rely on a particular frontend framework, so you're free to choose one that fits your needs, or none at all!</li>
-      </ul>
-    </div><!-- one-third column -->
-    
-    <div class="one-third column">
-      <h3>Docs &amp; Support</h3>
-      <p>The easiest way to really get started with Hoodie is to check out the full docs and info at <a href="http://www.hood.ie">www.hood.ie</a>. Hoodie is also open-source and has a <a href="https://github.com/hoodiehq">community on Github</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to get in touch at <a href="http://www.hood.ie/chat">www.hoodi.ie/chat</a>.</p>
-    </div><!-- one-third column -->
+    <div class="row">
+      <div class="one-third column">
+        <h3>About Hoodie</h3>
+        <p>Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible.</p>
+        <p>Hoodie is a free and Open Source Software for building applications for the web and iOS. It is a complete backend for your apps, ready for you to get creative. It works immediately out-of-the-box: develop your frontend code, plug it into Hoodie’s frontend-friendly API and your app is ready.</p> 
+      </div><!-- one-third column -->
+      
+      <div class="one-third column">
+        <h3>Principles</h3>
+        <p>Hoodie is built on three core principles:</p>
+        <ul class="square">
+          <li><strong>Offline First</strong>: Hoodie considers the offline case first, and allows you to use your apps offline, with no extra code.</li>
+          <li><strong>noBackend</strong>: Hoodie abstracts the backend away into an expressive, accessible API accessed entirely within your frontend code.</li>
+          <li><strong>Framework Agnostic</strong>: Hoodie doesn't rely on a particular frontend framework, so you're free to choose one that fits your needs, or none at all!</li>
+        </ul>
+      </div><!-- one-third column -->
+      
+      <div class="one-third column">
+        <h3>Docs &amp; Support</h3>
+        <p>The easiest way to really get started with Hoodie is to check out the full docs and info at <a href="http://hood.ie">hood.ie</a>. Hoodie is also open-source and has a <a href="https://github.com/hoodiehq">community on Github</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to get in touch at <a href="http://hood.ie/chat">hood.ie/chat</a>.</p>
+      </div><!-- one-third column -->
+    </div>
+
+    <hr />
+    <footer class="row">
+      <small>made by <a href="http://hood.ie">Hoodie</a> with ❤</small>
+    </footer>
 
   </div><!-- container -->
 
     <script src="assets/vendor/jquery-2.1.0.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.js"></script>
     <!-- Load the dynamic version of hoodie.js that includes all the plugin code-->
     <script src="/_api/_files/hoodie.js"></script>
 
-    <script src="assets/vendor/hoodie.accountbar.bootstrap.js"></script>
-    <script src="assets/vendor/bootstrap.modalform.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/login.js"></script>
 
 
 <!-- End Document
