@@ -1,15 +1,19 @@
-/* ==========================================================================
-   structure for oo-css
-   ========================================================================== */
+.container {
+  margin-top: 40px;
+}
 
-/* @import "reset.css"; // with bootstrap included */
+#login-bar {
+  float: right;
+}
 
-@import "layout.css";	/* define your layout */
-@import "modules.css";	/* specs for your modules */
+  #login-bar li {
+    display: inline-block; 
+  }
 
-/*
-@import "grid.css"; 	// put your grid in here like .1of3
-@import "colour.css"; 	// all the colours like .blue
-@import "typo.css"; 	// all definitions for typo, font-sizes etc.
-@import "icon.css"; 	// all the icons you use
-*/
+    #login-bar li:last-child {
+      padding-left: 8px;
+      border-left: 1px solid #ccc;
+    }
+.hide {
+  display: none !important;
+}
