@@ -26,9 +26,7 @@ You can start to build your (mobile) app in a fingersnap.
 index.html
 + including all (css + js) files you need
 
-main.css (OO-CSS structure)
-+ layout.css 
-+ modules.css
+main.css
 
 main.js
 + init hoodie
@@ -37,4 +35,4 @@ login.html
 + small form for login
 
 login.js
-+ login demo
++ hoodie account function already prepeared
