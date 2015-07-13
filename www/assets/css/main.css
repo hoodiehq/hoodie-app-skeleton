@@ -1,3 +1,19 @@
 .container {
   margin-top: 40px;
 }
+
+#login-bar {
+  float: right;
+}
+
+  #login-bar li {
+    display: inline-block; 
+  }
+
+    #login-bar li:last-child {
+      padding-left: 8px;
+      border-left: 1px solid #ccc;
+    }
+.hide {
+  display: none !important;
+}
