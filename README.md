@@ -1,12 +1,41 @@
-# Boilerplate for new Hoodie App
+# hoodie-app-skeleton
+
+> Boilerplate for a new Hoodie App
 
 You can start to build your (mobile) app in a fingersnap.
 
+## Setup
 
+Get the code either by [downloading it](#) or using git.
 
-## Installation
+If you download it, you can rename the folder to your app name, then open
+the folder in your terminal and run
 
-`$ hoodie new appName -t "hoodiehq/hoodie-app-skeleton" `
+```
+npm install
+```
+
+If you want to get it via git, run the comment below, replace `my-app-name` with
+the name of your app below
+
+```
+git clone https://github.com/hoodiehq/hoodie-app-skeleton my-app-name
+cd my-app-name
+rm -rf .git # remove the boilerplate’s git history
+npm install
+```
+
+Once `npm install` finished, you can start your app with
+
+```
+npm start
+```
+
+For available options, run
+
+```
+npm start -- --help
+```
 
 ## Browser Support (depending on Hoodie)
 
@@ -20,7 +49,6 @@ You can start to build your (mobile) app in a fingersnap.
 
 ## Including
 
-+ jQuery-2.1.0
 + Skeleton 2.0.4 (http://getskeleton.com/)
 
 index.html
@@ -28,11 +56,8 @@ index.html
 
 main.css
 
-main.js
-+ init hoodie
-
 login.html
 + small form for login
 
 login.js
-+ hoodie account function already prepeared
++ hoodie account function already prepared
