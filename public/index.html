@@ -36,22 +36,23 @@
   <div class="container">
     <div class="sixteen columns">
       <ul id="login-bar">
-        <li id="login-btn" class="hide"><a href="#">Login</a></li>
-        <li id="login-username" class="hide"></li>
-        <li id="logout-btn" class="hide"><a href="#">Logout</a></li>
+        <li><strong>Home</strong></li>
+        <li id="login-link" class="hide"><a href="login.html">Login</a></li>
+        <li id="username" class="hide"></li>
+        <li class="hide" data-action="sign-out"><a href="#">Logout</a></li>
       </ul>
     </div>
     <div class="sixteen columns">
-      <h1>{{hoodie.appName}}</h1>
+      <h1>Hoodie App Skeleton</h1>
       <hr />
     </div><!-- sixteen columns -->
     <div class="row">
       <div class="one-third column">
         <h3>About Hoodie</h3>
         <p>Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible.</p>
-        <p>Hoodie is a free and Open Source Software for building applications for the web and iOS. It is a complete backend for your apps, ready for you to get creative. It works immediately out-of-the-box: develop your frontend code, plug it into Hoodie’s frontend-friendly API and your app is ready.</p> 
+        <p>Hoodie is a free and Open Source Software for building applications for the web and iOS. It is a complete backend for your apps, ready for you to get creative. It works immediately out-of-the-box: develop your frontend code, plug it into Hoodie’s frontend-friendly API and your app is ready.</p>
       </div><!-- one-third column -->
-      
+
       <div class="one-third column">
         <h3>Principles</h3>
         <p>Hoodie is built on three core principles:</p>
@@ -61,7 +62,7 @@
           <li><strong>Framework Agnostic</strong>: Hoodie doesn't rely on a particular frontend framework, so you're free to choose one that fits your needs, or none at all!</li>
         </ul>
       </div><!-- one-third column -->
-      
+
       <div class="one-third column">
         <h3>Docs &amp; Support</h3>
         <p>The easiest way to really get started with Hoodie is to check out the full docs and info at <a href="http://hood.ie">hood.ie</a>. Hoodie is also open-source and has a <a href="https://github.com/hoodiehq">community on Github</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to get in touch at <a href="http://hood.ie/chat">hood.ie/chat</a>.</p>
@@ -76,10 +77,9 @@
   </div><!-- container -->
 
     <script src="assets/vendor/jquery-2.1.0.min.js"></script>
-    <!-- Load the dynamic version of hoodie.js that includes all the plugin code-->
-    <script src="/_api/_files/hoodie.js"></script>
+    <!-- Load the Hoodie Client -->
+    <script src="/hoodie/client.js"></script>
 
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/login.js"></script>
 
 

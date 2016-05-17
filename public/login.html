@@ -35,6 +35,14 @@
 
   <div class="container">
     <div class="sixteen columns">
+      <ul id="login-bar">
+        <li><a href="index.html">Home</a></li>
+        <li id="login-link" ><strong>Login</strong></li>
+        <li id="username" class="hide"></li>
+        <li class="hide" data-action="sign-out"><a href="#">Logout</a></li>
+      </ul>
+    </div>
+    <div class="sixteen columns">
       <h1>Hoodie App Skeleton</h1>
       <hr />
     </div><!-- sixteen columns -->
@@ -47,14 +55,13 @@
           </div>
           <div class="four columns">
             <label for="formUsr">Your name</label>
-            <input class="u-full-width" type="email" placeholder="hi@your.me" id="formUsr" required>
-            
+            <input class="u-full-width" type="text" placeholder="hi@your.me" id="formUsr" required>
+
             <label for="formPwd">password</label>
             <input class="u-full-width" type="password" id="formPwd" required>
-            
-            <input class="button-primary" type="submit" value="Login">
-          </div>
-          <div class="four columns">
+
+            <button class="button-primary" name="sign-in" data-action="sign-in">Sign In</button>
+            <button class="button-secondary" name="sign-up" data-action="sign-up">Sign Up</button>
           </div>
         </div>
       </form><!-- login form -->
@@ -69,10 +76,9 @@
   </div><!-- container -->
 
     <script src="assets/vendor/jquery-2.1.0.min.js"></script>
-    <!-- Load the dynamic version of hoodie.js that includes all the plugin code-->
-    <script src="/_api/_files/hoodie.js"></script>
+    <!-- Load the Hoodie Client -->
+    <script src="/hoodie/client.js"></script>
 
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/login.js"></script>
 
 
