@@ -3,19 +3,9 @@
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie-server": "^4.0.2",
-    "hoodie-plugin-appconfig": "^2.0.1",
-    "hoodie-plugin-email": "^1.0.0",
-    "hoodie-plugin-users": "^2.2.2"
+    "hoodie": "^21.0.0"
   },
   "scripts": {
-    "start": "node node_modules/hoodie-server/bin/start"
-  },
-  "hoodie": {
-    "plugins": [
-      "hoodie-plugin-appconfig",
-      "hoodie-plugin-email",
-      "hoodie-plugin-users"
-    ]
+    "start": "hoodie"
   }
 }
