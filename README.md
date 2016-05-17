@@ -6,7 +6,7 @@ You can start to build your (mobile) app in a fingersnap.
 
 ## Setup
 
-Get the code either by [downloading it](#) or using git.
+Get the code either by [downloading it](https://github.com/hoodiehq/hoodie-app-skeleton/archive/camp.zip) or using git.
 
 If you download it, you can rename the folder to your app name, then open
 the folder in your terminal and run
@@ -21,6 +21,7 @@ the name of your app below
 ```
 git clone https://github.com/hoodiehq/hoodie-app-skeleton my-app-name
 cd my-app-name
+git checkout camp # currently working on camp branch
 rm -rf .git # remove the boilerplate’s git history
 npm install
 ```
