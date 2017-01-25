@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie": "^26.0.0"
+    "hoodie": "^27.1.1"
   },
   "scripts": {
     "start": "hoodie"
